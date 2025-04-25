@@ -1,0 +1,105 @@
+#include <stdio.h>
+
+int main() {dat. primitivos /descripcion  /ej /tamaño /dom
+	tipo int  n°enteros  int edad=25  4bytes -2,12;2.14 
+	float n°decimales precis.simple     float precio=10.5 4byt aprox+-3.4e-38a+-3.4e+38
+	double n°deci.precis.doble doublepi=3,14 8byt aprox+-1.7e-308a+-1.7e+308
+	char caract.individuales charletra=A 1byte -128a127
+	
+}
+
+return 0;
+}
+
+}if permite ejecutar un bloque de código sólo si una
+	condición es verdadera. Si la condición es falsa, el código dentro
+	del if no se ejecuta. 
+if-else La sentencia if-else permite ejecutar un bloque de código si
+	la condición es verdadera y otro bloque si la condición es falsa.
+if-else anidados permiten tomar decisiones más
+	complejas dentro de un programa. Se usan cuando se necesita
+	evaluar múltiples condiciones de manera jerárquica.
+	Un if-else anidado ocurre cuando dentro de un if o un else hay otro if-else.
+Se usa para evaluar varias condiciones en un orden específico.
+}
+
+return 0;
+}
+switch Cuando hay múltiples opciones, switch simplifica el
+	código en lugar de usar varios if-else.
+for se usa para ejecutar un bloque de código un número
+determinado de veces. A diferencia de while, donde el control de la condición
+es más manual, for tiene una estructura más organizada con tres partes:
+			1. Inicialización ? Se ejecuta una sola vez antes del primer ciclo.
+			2. Condición ? Se evalúa antes de cada iteración; si es true, el ciclo
+				continúa.
+			3. Actualización ? Se ejecuta después de cada iteración para modificar la
+				variable de control.
+Errores comunes con for -no modificar la variable de control (bucle infinito)
+	
+	for (int i=1; i<=5;) //falta de incremento 
+		printf("%d\n", i);
+-condición incorrecta (no entra al ciclo)
+	for (int i=10; i<5;i++) //i empieza en 10, pero nunca es menor que 5
+		printf ("esto nunca se imprimirá.\n");
+}
+
+return 0;
+}while 	permite repetir un bloque de código mientras una condición
+	sea verdadera. Se usa cuando no sabemos exactamente cuántas veces se
+	repetirá el ciclo, ya que depende de la evaluación de la condición.
+Errores (ciclo infinito) si la variable dentro del while no cambia dentro del ciclo,
+	la condicion nunca será falsa y el programa quedará atrapado en un bucle
+	infinito int x=1;
+while (x<=5)
+	printf("Número: %d\n", x); //falta incrementar x, el ciclo sera infinito
+(cond. incorrecta) asegurarse de que la condición permita al while ejecutar
+    al menos una vez si es necesario.
+	int x=10;
+while (x<5) //x nunca será menor que 5 
+	printf("esto nunca se imprimirá\n");
+}
+return 0;
+}do-while La sentencia do-while es una estructura de control de flujo
+	en C que ejecuta un bloque de código al menos una vez y
+	luego sigue ejecutándolo mientras una condición sea
+	verdadera.
+	A diferencia del while, donde primero se evalúa la condición
+		antes de ejecutar el código,
+errores con do-while olvidar la Actualización de la variable de control
+int i=1;
+do{
+	printf("%d\n",i);
+} while(i<=5);//ciclo infinito porque i nunca cambia 
+}
+return 0;
+vector Un arreglo (o array) es una colección de
+	variables del mismo tipo almacenadas en
+	posiciones contiguas de memoria.
+matrices arreglo bidimensional 
+for para mostrar o procesar cada elemento
+	oper. con arreglo:recorrido
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
