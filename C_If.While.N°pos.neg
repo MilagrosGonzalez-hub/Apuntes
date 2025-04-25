@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+	int numero;
+	
+	printf("Ingresa números (0 para salir): \n");
+	
+	// Ciclo while para continuar mientras el usuario no ingrese 0
+	while (1) { // Bucle infinito controlado por el valor ingresado
+		printf("Ingresa un número: ");
+		scanf("%d", &numero);
+		
+		if (numero == 0) {
+			printf("Has ingresado 0. Saliendo del programa...\n");
+			break; // Termina el ciclo si el número es 0
+		} else {
+			// Bloque if anidado para clasificar números
+			if (numero > 0) {
+				printf("El número %d es mayor que 0.\n", numero);
+			} else {
+				printf("El número %d es menor que 0.\n", numero);
+			}
+		}
+	}
+	
+	return 0;
+}
